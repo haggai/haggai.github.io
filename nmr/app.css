@@ -1,0 +1,421 @@
+body {
+    margin:0;
+    font-family:Tahoma;
+    font-size:1em;
+}
+
+.pageContainer {
+    width:600px;
+    margin:0 auto;
+    padding-bottom:5em;
+}
+
+.banner {
+    background-image:url('');
+}
+
+.title {
+    font-family: Aharoni;
+    color:#00b4b7;
+    text-align:center;
+    line-height:4em;
+}
+
+.title-big {
+    font-size:5em;
+}
+
+.title-small {
+    font-size:4em;
+}
+
+.lastApplyDate {
+    text-align:center;
+    font-size:1.7em;
+    font-weight:bold;
+    margin-top:0.6em;
+}
+
+.boldDescText {
+    margin-top: 1.5em;
+    font-weight:bold;
+    color:#00b4b7;
+    word-spacing: 0.1em;
+    font-size:1em;
+}
+
+.regDescText {
+    margin-top: 1em;
+    color:#00b4b7;
+    word-spacing: 0.1em;
+}
+
+.fbLink {
+    color:#e53f6b;
+    text-decoration: none;
+}
+
+.inlineBlock {
+    display:inline-block;
+}
+
+.fbIcon {
+    margin-bottom: -5px;
+    margin-right: -3px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.innerContainer {
+    width: 92%;
+    margin:0 auto;
+}
+
+.studentsImage {
+    margin-top:2.5em;
+}
+
+.requirementsTitle {
+    margin-top:2em;
+    font-weight:bold;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.pink {
+    color:#e53f6b;
+}
+
+.marginTop {
+    margin-top:2em;
+}
+
+.blue {
+    color:#00b4b7
+}
+
+.smaller {
+    font-size:0.95em;
+}
+
+.formCategory {
+    background-color: #e53f6b;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right:0.3em;
+    padding-left:0.3em;
+}
+
+
+.inputAlign {
+    margin-right:2em;
+}
+
+label{
+    display: inline-block;
+    width: 5.5em;
+    text-align: right;
+}
+
+.inputStyle1 input, .inputStyle1 select {
+    border: none;
+    background-color: #e1e1e1;
+    padding: 0.4em;
+}
+
+.inputStyle1 select {
+    width:13.5em;
+}
+
+.inputStyle1 input:focus {
+    
+}
+
+
+input {
+  display: inline-block;
+    
+}
+
+.smallMargin{
+   margin-top:0.6em;
+}
+
+/* The CSS for custom select */
+/* Container used for styling the custom select, the buttom class below adds the bg gradient, corners, etc. */
+.custom-select {
+  position: relative;
+  width: 12.5em;
+}
+
+
+/* This is the native select, we're making everything but the text invisible so we can see the button styles in the wrapper */
+.custom-select select {
+    width: 100%;
+    margin: 0;
+    /* background: none; */
+    /* border: 1px solid transparent; */
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 1em;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    color: #444;
+    line-height: 1.3;
+}
+
+
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font, etc. or the arrow could just baked into the bg image on the select. Note this si a 2x image so it will look bad in browsers that don't support background-size. In production, you'd handle this resolution switch via media query but this is a demo. */
+    
+.custom-select::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 25px;
+    top: 25%;
+    right: 81%;
+    margin-top: -4px;
+    background-image: url(/Images/dropdownIcon.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    pointer-events: none;
+    width: 32px;
+}
+
+.sendButton {
+position: relative;
+    vertical-align: top;
+    width: 6em;
+    height: 2em;
+    /* padding: 0; */
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #00B4B7;
+    border: 0;
+    cursor: pointer;
+}
+.sendButton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.inputStyle1 label {
+        font-family: Tahoma;
+    font-weight: normal !important;
+}
+
+.shortLabel {
+    width:auto;
+}
+
+.marginRight {
+    margin-right:1em;
+}
+
+.longLabel {
+    width:10.5em;
+}
+
+.longerLabel {
+    width:11.5em;
+}
+
+.almostHugeLabel {
+    width:14.5em;
+}
+
+textArea {
+    resize:vertical;
+}
+.hugeLabel {
+    width:18.5em;
+}
+
+.shortSelect {
+    width:8.5em
+}
+
+.shortSelect::after {
+    right:71%;
+}
+
+.inputAlign3 {
+    margin-right:3em;
+}
+
+.centeredForm {
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: #E1E1E1;
+    padding-bottom: 1em;
+}
+
+.centeredForm .formCategory {
+    width:100%;
+    padding-right:1.5em;
+}
+
+.innerCenteredForm {
+    padding-right:1.5em;
+}
+
+.centeredForm .inputStyle1 input, .centeredForm .inputStyle1 select {
+    background-color:white;
+}
+
+.centeredForm .custom-select::after {
+    background-image: url(/Images/dropdownIconWhite.jpg);
+}
+
+.shorterInput {
+    width: 9.5em;
+}
+.smallerText {
+    font-size:0.8em;
+}
+
+.longSelect { 
+    width: 14em;
+}
+
+#volunteeringDetails {
+    margin-right:16em;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    color:black;
+}
+
+#reasonForRequest {
+    width: 94%;
+    background-color: #e1e1e1;
+}
+
+.send {
+    text-align:center;
+}
+
+.sendButton {
+    height: 1.5em;
+    font-size: 3.5em;
+    width: 5em;
+}
+
+.addFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.addFile::before {
+  content: 'צרף קובץ';
+  display: inline-block;
+    vertical-align: top;
+    width: 4.9em;
+    border-radius:3px;
+    height: 2em;
+    /* padding: 0; */
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #00B4B7;
+    border: 0;
+    cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+    
+}
+.addFile:hover::before {
+  border-color: black;
+}
+.addFile:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.formSubmitted input.ng-invalid, .formSubmitted select.ng-invalid, .formSubmitted textarea.ng-invalid {
+    border: 1px solid rgba(255, 0, 0, 0.75);
+}
+
+.formSubmitted input[type=checkbox].ng-invalid {
+    outline: 1px solid rgba(255, 0, 0, 0.75);
+}
+
+.largerText {
+    font-size:1.2em;
+}
+
+.textAlignRight {
+    text-align:right;
+}
+
+.tableSmall {
+    width:600px;
+}
+
+.hugeLabelsUnder label {
+    width:12em;
+    margin-top:0.3em;
+}
+
+/* Login Page */
+.checkboxLoginFix { 
+    float: right !important;
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+}
+
+#loginForm {
+    font-size:1.4em;
+}
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    display:none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+        text-align: center;
+    font-size: 1.5em;
+	background: url(/Scripts/lib/loader-128x/Preloader_3.gif) center no-repeat #fff;
+}
+.se-pre-con.show {
+    display:block;
+}
+
+.noMoreMilgotContainer {
+    text-align:center;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.red {
+    color:#f42e2e;
+}
